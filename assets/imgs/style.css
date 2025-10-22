@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #fff7df;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #6a3e00;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #6a3e00;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6a3e00;
+}
+
+.add-button {
+  margin-top: 15px;
+  background-color: #f6d465;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: #5a3b00;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #ffdd75;
+}
